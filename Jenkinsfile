@@ -6,6 +6,11 @@ steps {
  sh 'ant -f build.xml'
 }
 }
+stage('test'){
+steps {
+sh 'ant -f test.xml'
+}
+}
 }
 post {
 always {

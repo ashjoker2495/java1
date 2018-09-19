@@ -1,17 +1,8 @@
-<<<<<<< HEAD
-<?xml version="1.0"?>
-<project name="Rectangle-Build" default="main" basedir=".">
-<property environment="env"/>
-=======
-zippyops consulting <zippyops@gmail.com>
-	
-15:05 (1 minute ago)
-	
-to me
+
 <?xml version="1.0"?>
 <project name="Rectangle-Build" default="main" basedir=".">
   <property environment="env"/>
->>>>>>> 511b4b8b47e5339433ef0a1760adebcaedeec855
+
 
   <!-- Sets variables which can later be used. -->
   <!-- The value of a property is accessed via ${} -->
@@ -20,11 +11,8 @@ to me
   <property name="dist.dir" location="dist" />
 
   <path id="class.path">
-<<<<<<< HEAD
     <pathelement location="./lib/junit-4.12.jar" />
-=======
-    <pathelement location="./lib/junit-4.10.jar" />
->>>>>>> 511b4b8b47e5339433ef0a1760adebcaedeec855
+    <pathelement location="./lib/junit-4.12.jar" />
     <pathelement location="${build.dir}" />
   </path>
 

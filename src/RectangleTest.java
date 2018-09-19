@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> 511b4b8b47e5339433ef0a1760adebcaedeec855
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 

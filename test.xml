@@ -12,7 +12,6 @@
 
   <path id="class.path">
     <pathelement location="./lib/junit-4.12.jar" />
-    <pathelement location="./lib/junit-4.12.jar" />
     <pathelement location="${build.dir}" />
   </path>
 
